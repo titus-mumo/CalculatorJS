@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  width:325px;
+  border: 1px solid black;
+  align-self: center;
+  background-color: black;
+  margin:3px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.working {
+  border: 1px solid white;
+  height: 150px;
+}
+
+.displayanswer, .displaywork {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}

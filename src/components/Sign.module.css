@@ -1,0 +1,17 @@
+.sign {
+    border:1px solid black;
+    width:77px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(63, 62, 62);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.sign:hover{
+    cursor: pointer;
+}
