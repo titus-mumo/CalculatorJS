@@ -1,12 +1,9 @@
 import styles from './Sign.module.css'
 
-const Negate = ({ negate, active, setActive }) => {
+const Negate = ({ negate, active, setActive, setActive2 }) => {
     const handleNegate = (negate) => {
-        console.log(negate)
-        handleWorking()
-    }
-    const handleWorking = () => {
-        setActive( active = `negate(${active? active: 0})`)
+        setActive(active = negate.concat(active))
+        setActive2 = (eval(active))
     }
 
     return (
